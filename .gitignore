@@ -52,7 +52,6 @@ Makefile.config
 # 2. custom, and live on their own unless they're deliberated contributed
 data/*
 examples/*
-!examples/srcnn/*
 
 # Generated documentation
 docs/_site
