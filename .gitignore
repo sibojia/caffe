@@ -35,10 +35,6 @@ distribute/*
 *.bin
 python/caffe/proto/
 
-# Editor temporaries
-*.swp
-*~
-
 # IPython notebook checkpoints
 .ipynb_checkpoints
 
@@ -52,6 +48,12 @@ Makefile.config
 # 2. custom, and live on their own unless they're deliberated contributed
 data/*
 examples/*
+!examples/srcnn/
+!examples/srcnn/*
+
+# Editor temporaries
+*.swp
+*~
 
 # Generated documentation
 docs/_site
