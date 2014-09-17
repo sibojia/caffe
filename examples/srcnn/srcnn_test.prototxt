@@ -6,7 +6,7 @@ layers {
   top: "label"
   hdf5_data_param {
     source: "test.sources"
-    batch_size: 1
+    batch_size: 576
   }
 }
 layers {
@@ -89,4 +89,5 @@ layers {
   type: EUCLIDEAN_LOSS
   bottom: "flat"
   bottom: "label"
+  top: "loss"
 }
